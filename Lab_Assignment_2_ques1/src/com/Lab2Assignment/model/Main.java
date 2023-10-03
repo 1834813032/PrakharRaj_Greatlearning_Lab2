@@ -19,7 +19,7 @@ import java.util.Scanner;
 		      System.out.println("Enter the value of target: ");
 		      int target = sc.nextInt();
 		      int res= transaction.targetCheck(transactions,target);
-		      if (res>0) {
+		      if (res>=0) {
 		    	  System.out.println("the target can be achieved "+ (int)(res+1)+ " trasaction");
 		      }
 		      else {
